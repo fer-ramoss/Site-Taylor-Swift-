@@ -1,0 +1,148 @@
+.content {
+    text-align: justify;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 3%);
+
+}
+
+#foto {
+    width: 50%;
+    height: 450%;
+    top: auto;
+    transform: translate(50%, 6%);
+    position: static;
+}
+
+/* .imagem {
+    width: 100px;
+    height: 100px;
+    background-image: url("iimages/taylor-swift.jpg");
+    background-size: cover;
+    animation: passar 5s infinite;
+  }
+  
+  @keyframes passar {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 50% 0%;
+    }
+  } */
+
+  #imagem {
+    width: 450px;
+    height: 450px;
+    transition: 0.5s;
+  }
+  
+  #imagem:hover {
+    transform: scale(1.2);
+  }
+
+  .containner {
+    position: relative;
+    padding: 0 20px;
+  }
+  
+  nav {
+    position: absolute;
+    top: 31px;
+    right: 0;
+}
+
+.centro {
+    text-align: justify;
+    position: relative;
+    right: 15%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.teste:hover {
+    color: sienna;
+}
+
+#png {
+    width: 20%;
+    top: auto;
+    position: absolute;
+    left: 30%;
+    transform: translate(-200%, 5%);
+}
+
+.dropdown {
+    font-size: bold;
+    border: 0;
+    background: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Estilos para o dropdown */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 100;
+    width: 100px;
+    background:none;
+    border: 0;
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content li {
+    padding: 5px;
+  }
+  
+  .dropdown-content li:hover {
+    background-color: none;
+  }
+
+ #test {
+    text-align: justify;
+    
+  }
+
+
+/* .caixa {
+    text-align: justify;
+    font-size: small;
+    position: relative;
+    right: 15%; 
+} */

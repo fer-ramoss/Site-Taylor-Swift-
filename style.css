@@ -1,0 +1,61 @@
+#fundo {
+    width: 100%;
+    height: 450%;
+    top: auto;
+}
+
+nav {
+    position: absolute;
+    top: 31px;
+    right: 0;
+}
+
+.centro {
+    text-align: justify;
+    position: relative;
+    right: 15%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .content {
+    text-align: justify;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 6%);
+
+} */
+
+/* .borda {
+    border: ;
+    background-color: ;
+} */
+
+#png {
+    width: 20%;
+    top: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-227%, 10%);
+}
+
+.teste:hover {
+    color: sienna;
+}
